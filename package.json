@@ -1,0 +1,22 @@
+{
+  "name": "functional-js",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Functional programming examples in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint -c .eslintrc.js fp.js index.js"
+  },
+  "keywords": [
+    "functional",
+    "javascript"
+  ],
+  "author": "Ben Centra <blcentra@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
